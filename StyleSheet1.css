@@ -1,0 +1,29 @@
+﻿body {
+    background-color:mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.spielBrett{
+    grid-template-columns:repeat(7, 100px);
+    grid-template-rows:repeat(6, 100px);
+    background-color:black;
+    margin:auto;
+    justify-content:center;
+    display:grid;
+    padding:10px;
+}
+.cell{
+    border:5px solid;
+    background-color:white;
+    border-radius:50px;
+    outline:5px solid;
+}
+
+.red{
+    background-color:red;
+}
+.yellow {
+    background-color: yellow;
+}
