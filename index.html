@@ -4,60 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>VierGewinnt</title>
-    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
  
 </head>
 <body>
-    <div class="spielBrett">
-        <div class="row-1 col-1 cell"></div>
-        <div class="row-1 col-2 cell"></div>
-        <div class="row-1 col-3 cell "></div>
-        <div class="row-1 col-4 cell"></div>
-        <div class="cell col-5"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-        <div class="row-2 coll-1 cell "></div>
-        <div class="cell coll-2"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
-        <div class="cell"></div>
+    <script src="js/script.js"></script>
+    <div id="board-container" class="spielBrett">
+       
     </div>
     <script type="text/javascript">
+        buildBoard();
         var cells = document.getElementsByClassName("cell");
         for (var i = 0; i < cells.length; i++) {
             (function (index) {
