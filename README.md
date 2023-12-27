@@ -1,1 +1,1 @@
-# 4inarow
+# 4inarow is a multiplayer game.
